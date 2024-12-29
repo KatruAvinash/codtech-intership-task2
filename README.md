@@ -24,3 +24,35 @@ TECHNOLOGIES USED:
 
 HTML:HTML is the standard markup language used to create and design web pages.
 CSS:Css used to control the presentation, layout, and design of HTML content.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Real-Time Chat</h2>
+        </div>
+        <div class="chat-messages">
+            <div class="message user">
+                <span class="user-name">User1</span>
+                <p>Hello! How are you?</p>
+            </div>
+            <div class="message bot">
+                <span class="user-name">Bot</span>
+                <p>I'm good, thanks for asking! How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type a message...">
+            <button>Send</button>
+        </div>
+    </div>
+</body>
+</html>
+
